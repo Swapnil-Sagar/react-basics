@@ -3,12 +3,15 @@ import EventBinding from "./components/EventBinding";
 import "./App.css";
 import ParentComponent from "./components/ParentComponent";
 import UserGreeting from "./components/UserGreeting";
+import NameList from "./components/NameList";
 
 function App() {
   return (
     <div className="App">
-      <UserGreeting />
-      {/*<ParentComponent />
+      <NameList />
+
+      {/*<UserGreeting />
+    <ParentComponent />
        <Increments />
       <EventBinding /> */}
     </div>
