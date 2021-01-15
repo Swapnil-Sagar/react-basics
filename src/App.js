@@ -6,12 +6,16 @@ import UserGreeting from "./components/UserGreeting";
 import NameList from "./components/NameList";
 import Form from "./components/Form";
 import LifecycleA from "./components/LifecycleA";
+import FragmentDemo from "./components/FragmentDemo";
+import Table from "./components/Table";
 
 function App() {
   return (
     <div className="App">
-      <LifecycleA />
-      {/*<Form />
+      <Table />
+      <FragmentDemo />
+      {/* <LifecycleA />
+      <Form />
       <NameList />
 
       <UserGreeting />
