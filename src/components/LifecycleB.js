@@ -19,8 +19,22 @@ class LifecycleB extends Component {
     console.log("LSMb DidMount");
   }
 
+  shouldComponentUpdate() {
+    console.log("LSMb shouldComponentUpdate");
+    return true;
+  }
+
+  getSnapshotBeforeUpdate(prevProps, prevState) {
+    console.log("LSMb getSnapshotBeforeUpdate");
+    return null;
+  }
+
+  componentDidUpdate() {
+    console.log("LSMb componentDidUpdate");
+  }
+
   render() {
-    console.log("LSMbrender");
+    console.log("LSMb render");
     return <div>LifeCycle B</div>;
   }
 }
