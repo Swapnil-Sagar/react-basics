@@ -21,15 +21,19 @@ import User from "./components/User";
 import Counter from "./components/Counter";
 import ComponentC from "./components/ComponentC";
 import { UserProvider } from "./components/UserContext";
+import PostList from "./components/PostList";
+import PostForm from "./components/PostForm";
 
 function App() {
   return (
     <div className="App">
+      <PostForm />
+      {/*<PostList />
       <UserProvider value="Sagar">
         <ComponentC />
       </UserProvider>
 
-      {/*<Counter
+      <Counter
         render={(count, incrementCount) => (
           <ClickCounter count={count} incrementCount={incrementCount} />
         )}
