@@ -46,13 +46,13 @@ function App() {
       <User render={(isLoggedIn) => (isLoggedIn ? "Sagar" : "Guest")} />
       <HoverCounter />
       <ClickCounter />
-      <ErrorBoundary>
+      {/* <ErrorBoundary>
         <Hero heroName="Batman" />
       </ErrorBoundary>
       <ErrorBoundary>
         <Hero heroName="Superman" />
         <Hero heroName="Joker" />
-      </ErrorBoundary>
+      </ErrorBoundary> */}
       <FRParentInput />
       <FocusInput />
       <RefsDemo />
