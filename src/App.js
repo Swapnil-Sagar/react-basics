@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <PostForm />
-      {/*<PostList />
+      <PostList />
       <UserProvider value="Sagar">
         <ComponentC />
       </UserProvider>
@@ -54,18 +54,18 @@ function App() {
         <Hero heroName="Joker" />
       </ErrorBoundary>
       <FRParentInput />
-       <FocusInput />
+      <FocusInput />
       <RefsDemo />
       <ParentComp />
       <Table />
       <FragmentDemo />
-       <LifecycleA />
+      <LifecycleA />
       <Form />
       <NameList />
       <UserGreeting />
-    <ParentComponent />
-       <Increments />
-      <EventBinding /> */}
+      <ParentComponent />
+      <Increments />
+      <EventBinding />
     </div>
   );
 }
